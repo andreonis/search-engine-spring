@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 @Slf4j
 public class FileLoader implements LoaderInt {
 
-    @Value("{files.path}")
+    @Value("${files.path}")
     private String filesPath;
 
     @Override
