@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 @Configuration // current class is only for Spring purpose and will hold beans definitions (annotated with @Bean).
-public class config {
+public class Config {
 
     @Bean
     public SearcherInt seacher(LoaderInt loader){
